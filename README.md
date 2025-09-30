@@ -89,6 +89,3 @@ Contributions are welcome! If you find a bug or have suggestions for features, p
 
 ---
 
-## 📝 License
-
-This project is licensed under the **MIT License** - see the `LICENSE` file for details.
