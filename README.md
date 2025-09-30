@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# 🎬 MovieDeux: The Modern Movie Catalog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## ✨ Project Overview
 
-In the project directory, you can run:
+**MovieDeux** is a sleek, modern, and fully responsive application designed to explore and catalog films and television series. Built with a focus on fast performance and intuitive user experience, this platform allows users to search for titles, browse popular and trending content, view detailed information (synopsis, cast, ratings), and manage their personalized watchlists.
 
-### `npm start`
+This project serves as a showcase of modern front-end development practices, utilizing a powerful **component-based architecture** and a **utility-first styling framework**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎯 Key Features
 
-### `npm test`
+* **Comprehensive Search**: Fast, type-ahead search functionality to find any movie or TV show.
+* **Detailed Views**: Dedicated pages for each title, displaying plot summaries, genre tags, cast and crew information, and external ratings.
+* **Trending & Popularity**: Dynamic sections highlighting the currently trending and most popular content.
+* **Personalized Watchlist** *(Planned)*: User authentication and the ability to save titles to a personalized "To Watch" or "Favorites" list.
+* **Fully Responsive Design**: Optimized layout for seamless viewing on desktop, tablet, and mobile devices (**Mobile-First** approach).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Technical Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The application is built using a robust and performance-oriented stack:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Category | Technology | Description |
+| :--- | :--- | :--- |
+| **Framework** | **React / Next.js** | A component-based library for building interactive user interfaces. |
+| **Language** | **TypeScript** | Enhances code quality and maintainability with static type checking. |
+| **Styling** | **Tailwind CSS** | A utility-first framework enabling rapid custom design and responsiveness. |
+| **Data Source** | **The Movie Database (TMDB)** | Utilized for comprehensive and up-to-date movie and TV data. |
+| **State Mgmt** | **React Context / Zustand** | Efficient global state handling for user preferences and data fetching status. |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ⚙️ Setup and Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Follow these steps to get a copy of the project up and running on your local machine for development and testing purposes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+You must have the following installed:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* **Node.js** (LTS recommended)
+* **npm** or **Yarn**
 
-## Learn More
+### Steps
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1.  **Clone the repository:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```bash
+    git clone [https://github.com/rayancmorais/moviedeux.git](https://github.com/rayancmorais/moviedeux.git)
+    cd moviedeux
+    ```
 
-### Code Splitting
+2.  **Install dependencies:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    ```bash
+    npm install
+    # or
+    # yarn install
+    ```
 
-### Analyzing the Bundle Size
+3.  **Configure Environment Variables:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    Create a **`.env.local`** file in the root directory and add your TMDB API key.
 
-### Making a Progressive Web App
+    ```bash
+    # Example TMDB API Key
+    NEXT_PUBLIC_TMDB_API_KEY=your_api_key_here
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+4.  **Run the application:**
 
-### Advanced Configuration
+    ```bash
+    npm run dev
+    # or
+    # yarn dev
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    The application will start in development mode, typically accessible at `http://localhost:3000`.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🤝 Contribution
 
-### `npm run build` fails to minify
+Contributions are welcome! If you find a bug or have suggestions for features, please feel free to **open an issue** or **submit a pull request**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License** - see the `LICENSE` file for details.
