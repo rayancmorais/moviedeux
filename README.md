@@ -6,8 +6,7 @@
 
 **MovieDeux** is a sleek, modern, and fully responsive application designed to explore and catalog films and television series. Built with a focus on fast performance and intuitive user experience, this platform allows users to search for titles, browse popular and trending content, view detailed information (synopsis, cast, ratings), and manage their personalized watchlists.
 
-This project serves as a showcase of modern front-end development practices, utilizing a powerful **component-based architecture** and a **utility-first styling framework**.
-
+This project serves as a showcase of modern front-end development practices, utilizing a powerful **component-based architecture**.
 ---
 
 ## 🎯 Key Features
@@ -27,10 +26,8 @@ The application is built using a robust and performance-oriented stack:
 | Category | Technology | Description |
 | :--- | :--- | :--- |
 | **Framework** | **React / Next.js** | A component-based library for building interactive user interfaces. |
-| **Language** | **TypeScript** | Enhances code quality and maintainability with static type checking. |
-| **Styling** | **Tailwind CSS** | A utility-first framework enabling rapid custom design and responsiveness. |
-| **Data Source** | **The Movie Database (TMDB)** | Utilized for comprehensive and up-to-date movie and TV data. |
-| **State Mgmt** | **React Context / Zustand** | Efficient global state handling for user preferences and data fetching status. |
+| **Language** | **JavaScript** | Enhances code quality and maintainability with static type checking. |
+| **Styling** | **CSS** | An utility-first framework enabling rapid custom design and responsiveness. |
 
 ---
 
